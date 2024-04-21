@@ -1,0 +1,33 @@
+[versions]
+compose-compiler = "1.5.12"
+compileSdk = "34"
+minSdk = "24"
+setup = "1.0.0"
+
+agp = "8.2.2"
+kotlin = "1.9.23"
+androidx-activityCompose = "1.9.0"
+composeMP = "1.6.2"
+nexusStaging = "0.30.0"
+
+[libraries]
+androidx-activityCompose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
+gradle-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+gradle-android = { module = "com.android.tools.build:gradle", version.ref = "agp" }
+plugin-multiplatform = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+plugin-compose = { module = "org.jetbrains.compose:compose-gradle-plugin", version.ref = "composeMP" }
+plugin-nexusStaging = { module = "io.codearte.gradle.nexus:gradle-nexus-staging-plugin", version.ref = "nexusStaging" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+cocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
+compose = { id = "org.jetbrains.compose", version.ref = "composeMP" }
+buildConfig = { id = "com.github.gmazzo.buildconfig", version = "5.3.5" }
+nexusStaging = { id = "io.codearte.nexus-staging", version.ref = "nexusStaging" }
+
+setup-kmp = { id = "kmp-setup", version.ref = "setup" }
+setup-cmp = { id = "cmp-setup", version.ref = "setup" }
+setup-application = { id = "android-application-setup", version.ref = "setup" }
