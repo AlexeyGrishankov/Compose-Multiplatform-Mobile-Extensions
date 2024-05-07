@@ -1,4 +1,4 @@
-import com.cme.platform.StatusBarsProviderUIViewController
+import io.github.aagrishankov.platform.StatusBarsProviderUIViewController
 import org.company.app.App
 import platform.UIKit.UIViewController
 

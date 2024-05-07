@@ -26,7 +26,7 @@ multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotl
 cocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
 compose = { id = "org.jetbrains.compose", version.ref = "composeMP" }
 buildConfig = { id = "com.github.gmazzo.buildconfig", version = "5.3.5" }
-nexusStaging = { id = "io.codearte.nexus-staging", version.ref = "nexusStaging" }
+maven-plugin = { id = "com.vanniktech.maven.publish", version = "0.28.0" }
 
 setup-kmp = { id = "kmp-setup", version.ref = "setup" }
 setup-cmp = { id = "cmp-setup", version.ref = "setup" }

@@ -21,10 +21,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.cme.platform.LocalThemeStatusBars
-import com.cme.platform.SystemThemeStatusBars.DARK
-import com.cme.platform.SystemThemeStatusBars.LIGHT
-import com.cme.platform.isDark
+import io.github.aagrishankov.platform.LocalThemeStatusBars
+import io.github.aagrishankov.platform.SystemThemeStatusBars.DARK
+import io.github.aagrishankov.platform.SystemThemeStatusBars.LIGHT
+import io.github.aagrishankov.platform.isDark
 
 @Composable
 internal fun App() {

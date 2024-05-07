@@ -20,5 +20,5 @@ dependencies {
     commonMainApi(compose.runtime)
     commonMainApi(compose.material)
 
-    commonMainApi(projects.themeStatusBars)
+    commonMainApi(projects.cmeThemeStatusBars)
 }

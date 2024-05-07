@@ -1,4 +1,4 @@
-package com.cme.platform
+package io.github.aagrishankov.platform
 
 import platform.UIKit.UIStatusBarStyle
 import platform.UIKit.UIStatusBarStyleDarkContent

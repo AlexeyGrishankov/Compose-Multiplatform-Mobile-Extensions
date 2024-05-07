@@ -1,4 +1,4 @@
-package com.cme.platform
+package io.github.aagrishankov.platform
 
 import android.app.Activity
 import androidx.activity.ComponentActivity

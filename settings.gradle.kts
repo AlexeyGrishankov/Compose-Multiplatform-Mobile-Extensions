@@ -19,5 +19,5 @@ includeBuild("build-logic")
 
 include(
     "sample:composeApp",
-    ":theme-status-bars",
+    ":cme-theme-status-bars",
 )

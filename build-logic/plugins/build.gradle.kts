@@ -18,8 +18,8 @@ dependencies {
     implementation(libs.plugin.compose)
 }
 
-val pluginPath = "com.cme"
-val projectPath = "com.cme"
+val pluginPath = "io.github.aagrishankov"
+val projectPath = "io.github.aagrishankov"
 
 group = "$pluginPath.buildlogic"
 

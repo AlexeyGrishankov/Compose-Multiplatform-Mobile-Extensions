@@ -1,4 +1,4 @@
-package com.cme.platform
+package io.github.aagrishankov.platform
 
 object PreRenderCurrentThemeStatusBars {
     var activeTheme: SystemThemeStatusBars = SystemThemeStatusBars.LIGHT

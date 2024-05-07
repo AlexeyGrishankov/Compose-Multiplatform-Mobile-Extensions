@@ -7,7 +7,7 @@ internal fun kmpSetup(
 ) = extension.apply {
 
     androidTarget {
-        publishLibraryVariants()
+        publishAllLibraryVariants()
     }
 
     iosArm64()

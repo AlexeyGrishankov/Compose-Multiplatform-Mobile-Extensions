@@ -4,7 +4,7 @@ import android.app.Application
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
-import com.cme.platform.setContentThemeWithStatusBars
+import io.github.aagrishankov.platform.setContentThemeWithStatusBars
 
 class AndroidApp : Application() {
     companion object {
