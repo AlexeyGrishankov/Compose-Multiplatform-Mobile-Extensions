@@ -6,11 +6,42 @@
 ![badge-iOS](https://img.shields.io/badge/Platform-iOS-lightgray)
 ![badge-Android](https://img.shields.io/badge/Platform-Android-brightgreen)
 
+[![last-version](https://img.shields.io/badge/cme-0.0.1-e26e2b)](https://github.com/aagrishankov/Compose-Multiplatform-Mobile-Extensions)
 
 # Preview
 ![preview](gitRes/2024-04-21%2011-23-18.gif)
 
-# Setup
+# Gradle
+
+#### Raw
+```gradle
+// build.gradle.kts
+dependencies {
+    commonMainApi("io.github.aagrishankov:cme-theme-status-bars:0.0.1")
+
+    // or
+
+    androidMainApi("io.github.aagrishankov:cme-theme-status-bars:0.0.1")
+    iosMainApi("io.github.aagrishankov:cme-theme-status-bars:0.0.1")
+}
+```
+
+#### Version Catalog
+```toml
+# libs.versions.toml
+cme-status-bars = { module = "io.github.aagrishankov:cme-theme-status-bars", version = "0.0.1" }
+```
+```gradle
+// build.gradle.kts
+dependencies {
+    commonMainApi(libs.cme.status.bars)
+
+    // or
+
+    androidMainApi(libs.cme.status.bars)
+    iosMainApi(libs.cme.status.bars)
+}
+```
 
 # Usage
 
