@@ -1,26 +1,25 @@
 # Compose Multiplatform Mobile Extensions (CME)
 
-[![compose-mp-version](https://img.shields.io/badge/compose--multiplatform-1.5.10_--_1.6.1-blue)](https://github.com/JetBrains/compose-multiplatform)
-[![kotlin-version](https://img.shields.io/badge/kotlin-1.9.20_--_1.9.23-8A2BE2)](https://github.com/JetBrains/compose-jb)
+[![compose-mp-version](https://img.shields.io/badge/compose--multiplatform-1.6.1-blue)](https://github.com/JetBrains/compose-multiplatform)
+[![kotlin-version](https://img.shields.io/badge/kotlin-1.9.23-8A2BE2)](https://github.com/JetBrains/compose-jb)
 
 ![badge-iOS](https://img.shields.io/badge/Platform-iOS-lightgray)
 ![badge-Android](https://img.shields.io/badge/Platform-Android-brightgreen)
 
----
+
 # Preview
 ![preview](gitRes/2024-04-21%2011-23-18.gif)
 
 # Setup
 
----
-
 # Usage
 
-## Theme System Bars
+### Theme System Bars
 
 #### Setup Android
 
 ```kotlin
+//androidMain
 //ComponentActivity
 
 override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,6 +37,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 #### Setup iOS
 
 ```kotlin
+//iosMain
 //main.kt
 
 fun MainViewController(): UIViewController {
@@ -54,6 +54,7 @@ fun MainViewController(): UIViewController {
 commonMain:
 
 ```kotlin
+//commonMain
 //Composable Scope
 
 var theme by LocalThemeStatusBars.current
@@ -64,12 +65,10 @@ theme = SystemThemeStatusBars.LIGHT
 
 ```
 
----
 
 # Sample
 An sample of a project using the library can be viewed here -> [sample](sample)
 
----
 
 # License
 
