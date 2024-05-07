@@ -1,3 +1,5 @@
+@file:Suppress("FunctionName")
+
 package io.github.aagrishankov.platform
 
 import androidx.compose.runtime.Composable

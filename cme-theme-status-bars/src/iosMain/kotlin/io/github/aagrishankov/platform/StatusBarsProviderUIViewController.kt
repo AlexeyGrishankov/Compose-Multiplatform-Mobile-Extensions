@@ -19,8 +19,10 @@ internal class StatusBarsProviderUIViewController : UIViewController(nibName = n
 
     override fun loadView() {
         super.loadView()
-        val childComposeViewController = childComposeViewController ?: return run { println("ERROR") }
-        println("GOOD")
+
+        val childComposeViewController = childComposeViewController
+            ?: error("Child controller not initialized")
+
         view = UIView().apply {
             addSubview(
                 childComposeViewController.view.apply {
